@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Meet Modasiya",
+    "tagline": "A React Developer building the frontend, exploring the dark arts of backend because sleep is optional anyway.",
+    "email": "modasiyameet23@gmail.com",
+    "cv_link": "/src/assets/Meet  Modasiya  Resume.pdf",
+    "about_text": "Sup! I’m a React Developer who enjoys turning complex problems into clean, functional, and user-friendly web experiences. I build real-world applications that don’t just look good they work well in production too.\n\nI’m probably not the kind of developer who lives only inside backend architecture diagrams. You’ll usually find me crafting interfaces in React, refining layouts, improving performance, and making sure every interaction feels smooth and natural. That said, I’m actively exploring the backend world building APIs, designing databases, and slowly unlocking the dark arts of full-stack development.\n\nI’ve worked on live client projects including production e-commerce platforms and business systems, which taught me that a great website is more than just design. It must be fast, reliable, and easy to use. My experience across frontend, backend-in-progress, and real deployments allows me to build digital products that balance clean UI with solid engineering and I’m always hungry to learn more and build better.",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/meet-modasiya",
+      "github": "https://github.com/MeetM23"
+    }
+  },
+  "live_client_projects": [
+    {
+      "title": "Lotsy E-Commerce Website",
+      "content": "Production e-commerce website built for a real client using React and Shopify integration.",
+      "url": "https://www.lotsy.in/",
+      "tech": "#reactjs #javascript #shopify",
+      "img": "plutospace.jpg"
+    },
+    {
+      "title": "Foxplay Clothing E-Commerce Website",
+      "content": "Live fashion e-commerce platform developed with React and Shopify for online sales.",
+      "url": "https://www.foxplayclothing.com/",
+      "tech": "#reactjs #javascript #shopify",
+      "img": "project-img-2.jpg"
+    }
+  ],
+  "experience": [
+    {
+      "title": "React Developer Intern - TenUp Software Solutions",
+      "company": "TenUp Software Solutions",
+      "duration": "(Dec 2025 – Apr 2026)",
+      "description": "Contributing to real-world web applications in a professional development environment at TenUp Software Solutions. Working on production-level projects using React.js, modern JavaScript, and API integrations while gaining hands-on full-stack experience with exposure to backend technologies and real business workflows. Collaborating with senior developers to build scalable, user-focused web solutions and delivering live client projects including e-commerce platforms and business systems used by real customers. Company website: https://www.tenupsoft.com/",
+      "tags": ["React.js", "JavaScript", "APIs", "Full-stack", "E-commerce", "Production"]
+    }
+  ]
+}
