@@ -1,5 +1,5 @@
 import React from "react";
-import project1 from "../assets/project-img-2.jpg";
+import project1 from "../assets/foxplay.png";
 
 export default function ProjectCard(props) {
   return (
