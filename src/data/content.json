@@ -26,6 +26,14 @@
       "img": "foxplay.png"
     },
     {
+      "title": "LeadFlow - AI Lead Management Platform",
+      "content": "Smart lead management system with automation, tracking, and conversion optimization for businesses.",
+      "url": "https://leadflow-sigma-brown.vercel.app/",
+      "tech": "#reactjs #nextjs #nodejs #mongodb",
+      "img": "leadflow.png",
+      "imgClass": "logo-img"
+    },
+    {
       "title": "Zentry Demo Website",
       "content": "Modern animated landing page showcasing smooth interactions, transitions, and clean UI design.",
       "url": "https://68a30e3bf9648613a607c9e7--zentrydemo.netlify.app/",
@@ -39,7 +47,14 @@
       "company": "TenUp Software Solutions",
       "duration": "(Dec 2025 – Apr 2026)",
       "description": "Contributing to real-world web applications in a professional development environment at TenUp Software Solutions. Working on production-level projects using React.js, modern JavaScript, and API integrations while gaining hands-on full-stack experience with exposure to backend technologies and real business workflows. Collaborating with senior developers to build scalable, user-focused web solutions and delivering live client projects including e-commerce platforms and business systems used by real customers. Company website: https://www.tenupsoft.com/",
-      "tags": ["React.js", "JavaScript", "APIs", "Full-stack", "E-commerce", "Production"]
+      "tags": [
+        "React.js",
+        "JavaScript",
+        "APIs",
+        "Full-stack",
+        "E-commerce",
+        "Production"
+      ]
     }
   ]
 }

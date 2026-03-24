@@ -35,7 +35,7 @@ export default function ProjectCard(props) {
           <img
             src={props.img ? props.img : project1}
             alt="img-project"
-            className="img-fluid project-img"
+            className={`img-fluid project-img ${props.imgClass || ""}`}
           />
         </div>
       </div>

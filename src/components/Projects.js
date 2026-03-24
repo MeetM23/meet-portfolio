@@ -19,6 +19,7 @@ export default function Projects() {
               url={project.url}
               img={require(`../assets/${project.img}`)}
               tech={project.tech}
+              imgClass={project.imgClass}
               showDetails={true}
             />
           ))}

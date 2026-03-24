@@ -168,6 +168,12 @@ body {
   border-radius: 10px;
 }
 
+.logo-img {
+  max-width: 65% !important;
+  margin: 2% auto !important;
+  display: block;
+}
+
 .testimonialsdiv {
   padding: 3% 12%;
   background-color: var(--bg-color);
