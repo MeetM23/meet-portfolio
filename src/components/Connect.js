@@ -5,13 +5,13 @@ export default function Connect() {
   return (
     <div className="container-fluid connect-section" id="contact">
       <div className="connect-inner">
-        
+
         <div className="connect-header text-center">
           <p className="section-eyebrow">Contact</p>
           <h2 className="connect-heading">Let's work together</h2>
           <p className="connect-subtext">Open to full-time roles and freelance opportunities.</p>
         </div>
-        
+
         <div className="connect-links-wrap mt-4">
           <div className="connect-links">
             <a
@@ -28,7 +28,7 @@ export default function Connect() {
                 </div>
               </div>
             </a>
-            
+
             <a
               href={data.profile.socials.linkedin}
               target="_blank"
@@ -43,7 +43,7 @@ export default function Connect() {
                 </div>
               </div>
             </a>
-            
+
             <a
               href={data.profile.socials.github}
               target="_blank"
@@ -60,28 +60,28 @@ export default function Connect() {
             </a>
           </div>
         </div>
-        
+
         <div className="connect-cta-group text-center mt-5">
-           <a
+          <a
             href={`mailto:${data.profile.email}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="cta-button-main"
+            className="cta-button-main mx-sm-2"
           >
-             <button className="btn-contact-primary">Email Me</button>
+            <button className="btn-contact-primary">Email Me</button>
           </a>
 
           <a
             href="/Meet_Modasiya_Resume.pdf"
             download
-            className="cta-button-sub mt-3 d-inline-block"
+            className="cta-button-sub d-inline-block mx-sm-2"
           >
-             <button className="btn-contact-secondary-outline m-3 ">
-               <i className="fa-solid fa-download" style={{ marginRight: "8px" }}></i>
-               Download Resume
-             </button>
+            <button className="btn-contact-secondary-outline">
+              <i className="fa-solid fa-download" style={{ marginRight: "8px" }}></i>
+              Download Resume
+            </button>
           </a>
-          
+
           <p className="connect-footer-note mt-4">I usually respond within 24 hours.</p>
         </div>
       </div>

@@ -116,7 +116,10 @@ html {
 }
 
 /* legacy — hidden */
-.navbardiv, .navbar-link { display: none; }
+.navbardiv,
+.navbar-link {
+  display: none;
+}
 
 
 .taglinediv {
@@ -378,8 +381,8 @@ html {
 
 /* ── Contact Redesign ─────────────────────── */
 .btn-contact-secondary-outline {
-  padding: 12px 32px;
-  font-size: 0.95rem;
+  padding: 13px 32px;
+  font-size: 1rem;
   font-weight: 650;
   color: #2563EB;
   background-color: transparent;
@@ -387,13 +390,18 @@ html {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
+  letter-spacing: 0.01em;
 }
 
 .btn-contact-secondary-outline:hover {
   background-color: #EFF6FF;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
 }
 
-.background-overlay { display: none; }
+.background-overlay {
+  display: none;
+}
 
 .btn1 {
   margin: 1% 1%;
@@ -498,7 +506,7 @@ html {
   direction: rtl;
 }
 
-.project-card-reverse > * {
+.project-card-reverse>* {
   direction: ltr;
 }
 
@@ -609,9 +617,18 @@ html {
 }
 
 /* Legacy classes — kept for back-compat */
-.projects-tech { display: none; }
-.project-img   { display: none; }
-.projectcard   { display: none; }
+.projects-tech {
+  display: none;
+}
+
+.project-img {
+  display: none;
+}
+
+.projectcard {
+  display: none;
+}
+
 .logo-img {
   max-width: 65% !important;
   margin: 2% auto !important;
@@ -624,6 +641,7 @@ html {
     grid-template-columns: 1fr;
     gap: 24px;
   }
+
   .project-card-reverse {
     direction: ltr;
   }
@@ -694,9 +712,17 @@ html {
 }
 
 /* legacy — no longer rendered */
-.aboutdiv h1  { display: none; }
-.about-img    { display: none; }
-.aboutdivcol  { display: none; }
+.aboutdiv h1 {
+  display: none;
+}
+
+.about-img {
+  display: none;
+}
+
+.aboutdivcol {
+  display: none;
+}
 
 
 .experiencediv {
@@ -855,7 +881,9 @@ html {
 }
 
 /* legacy */
-.experience-description { display: none; }
+.experience-description {
+  display: none;
+}
 
 .experience-tags {
   display: flex;
@@ -984,10 +1012,16 @@ html {
 }
 
 /* legacy */
-.connectdiv, .connect-card, .iconf, .iconred, .meet-link { display: none; }
+.connectdiv,
+.connect-card,
+.iconf,
+.iconred,
+.meet-link {
+  display: none;
+}
 
 .btn-contact-primary {
-  padding: 14px 40px;
+  padding: 13px 32px;
   font-size: 1rem;
   font-weight: 700;
   color: #FFFFFF;
@@ -1014,7 +1048,13 @@ html {
 }
 
 /* legacy */
-.connectdiv, .connect-card, .iconf, .iconred, .meet-link { display: none; }
+.connectdiv,
+.connect-card,
+.iconf,
+.iconred,
+.meet-link {
+  display: none;
+}
 
 .skillsdiv {
   padding: 72px 8%;
@@ -1111,20 +1151,27 @@ html {
 
 /* ── Mobile Responsive Overrides ────────────────────────── */
 @media (max-width: 768px) {
+
   /* Global */
   :root {
     --section-padding: 48px 20px;
   }
 
-  h1 { font-size: 2.2rem !important; }
-  h2 { font-size: 1.6rem !important; }
+  h1 {
+    font-size: 2.2rem !important;
+  }
+
+  h2 {
+    font-size: 1.6rem !important;
+  }
 
   .container-fluid {
     padding: var(--section-padding) !important;
   }
 
   /* Grid opacity reduction on mobile */
-  .taglinediv, .connect-section {
+  .taglinediv,
+  .connect-section {
     background-image:
       linear-gradient(rgba(226, 232, 240, 0.25) 1.5px, transparent 1.5px),
       linear-gradient(to right, rgba(226, 232, 240, 0.25) 1.5px, var(--bg-color) 1.5px) !important;
@@ -1133,7 +1180,8 @@ html {
   /* Navbar Mobile */
   .navbar-wrap {
     padding: 0 5%;
-    position: relative; /* Ensure overlay logic works */
+    position: relative;
+    /* Ensure overlay logic works */
   }
 
   .navbar-hamburger {
@@ -1158,9 +1206,17 @@ html {
     transform-origin: 1px;
   }
 
-  .hamburger-line.open:nth-child(1) { transform: rotate(45deg); }
-  .hamburger-line.open:nth-child(2) { opacity: 0; }
-  .hamburger-line.open:nth-child(3) { transform: rotate(-45deg); }
+  .hamburger-line.open:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .hamburger-line.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-line.open:nth-child(3) {
+    transform: rotate(-45deg);
+  }
 
   .navbar-right {
     position: fixed;
@@ -1194,7 +1250,8 @@ html {
     border-radius: 0;
   }
 
-  .nav-link:hover, .nav-link.active {
+  .nav-link:hover,
+  .nav-link.active {
     background-color: transparent;
     padding-left: 8px;
   }
@@ -1223,7 +1280,8 @@ html {
     gap: 12px;
   }
 
-  .btn-hero-primary-new, .btn-hero-secondary-new {
+  .btn-hero-primary-new,
+  .btn-hero-secondary-new {
     width: 100%;
     padding: 14px;
     height: 52px;
@@ -1247,12 +1305,18 @@ html {
     padding: 60px 6% !important;
   }
 
-  .cta-button-main, .cta-button-sub {
+  .cta-button-main,
+  .cta-button-sub {
     width: 100%;
     display: block;
   }
 
-  .btn-contact-primary, .btn-contact-secondary-outline {
+  .cta-button-sub {
+    margin-top: 12px;
+  }
+
+  .btn-contact-primary,
+  .btn-contact-secondary-outline {
     width: 100%;
     padding: 14px;
     font-size: 1rem;

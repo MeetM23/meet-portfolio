@@ -28,7 +28,7 @@ export default function Tagline() {
           <button className="btn-hero-primary-new" onClick={() => navigate("/projects")}>
             View Projects
           </button>
-          
+
           <ScrollLink to="contact" smooth offset={-70} duration={500}>
             <button className="btn-hero-secondary-new">Contact Me</button>
           </ScrollLink>
