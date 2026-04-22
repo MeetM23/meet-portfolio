@@ -1,42 +1,41 @@
 import React from "react";
-import project1 from "../assets/foxplay.png";
 
-export default function ProjectCard(props) {
+export default function ProjectCard({ title, content, url, img, tech, imgClass, index }) {
+  const techItems = tech ? tech.split(" • ") : [];
+  const isEven = index % 2 === 0;
+
   return (
-    <div className="card projectcard">
-      <div className="row">
-        <div className="col-md py-2">
-          <h2 className="fw-bold">{props.title}</h2>
-          <p>{props.content}</p>
-          <h6 className="projects-tech mt-2">{props.tech}</h6>
-          <div>
-            <a
-              href={props.url}
-              target="blank"
-              rel="noopener noreferrer"
-            >
-              <button type="button" className="btn btn-primary btn1 px-4">
-                <i className="fa-solid fa-up-right-from-square"></i> Live Demo
-              </button>
-            </a>
-            {props.showDetails && (
-              <a
-                href={props.detailsUrl || props.url}
-                target="blank"
-                rel="noopener noreferrer"
-              >
-              
-              </a>
-            )}
-          </div>
+    <div className={`project-card-saas ${isEven ? "" : "project-card-reverse"}`}>
+      {/* Image */}
+      <div className="project-card-img-wrap">
+        <a href={url} target="_blank" rel="noopener noreferrer" tabIndex="-1">
+          <img
+            src={img}
+            alt={title}
+            className={`project-card-img ${imgClass || ""}`}
+          />
+        </a>
+      </div>
+
+      {/* Content */}
+      <div className="project-card-body">
+        <p className="project-card-label">Featured Project</p>
+        <h2 className="project-card-title">{title}</h2>
+        <p className="project-card-desc">{content}</p>
+
+        <div className="project-card-tech">
+          {techItems.map((item, i) => (
+            <span key={i} className="project-tech-pill">{item}</span>
+          ))}
         </div>
 
-        <div className="col-md">
-          <img
-            src={props.img ? props.img : project1}
-            alt="img-project"
-            className={`img-fluid project-img ${props.imgClass || ""}`}
-          />
+        <div className="project-card-actions">
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <button className="btn-view-project">
+              <i className="fa-solid fa-arrow-up-right-from-square" style={{ marginRight: "8px", fontSize: "0.8rem" }}></i>
+              View Live Project
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -1,35 +1,28 @@
 import React from "react";
-import meet from "../assets/About Section Image.png";
-
-import data from "../data/content.json";
 
 export default function About() {
-  const { profile } = data;
-  const { about_text } = profile;
   return (
     <div className="container-fluid aboutdiv">
-      <div className="text-center pb-4">
-        <h1>About me</h1>
-      </div>
+      <div className="about-inner">
 
-      <div className="row">
-        <div className="col-md aboutdivcol text-center">
-          <img
-            src={meet}
-            alt="about-mishra-img"
-            className="img-fluid about-img"
-          />
-        </div>
+        <p className="section-eyebrow">About Me</p>
+        <h2 className="about-heading">
+          Full-Stack Developer focused on real-world applications
+        </h2>
 
-        <div className="col-md aboutdivcol">
-          {/* Data is Split */}
-          {about_text.split("\n").map((paragraph, index) => (
-            <React.Fragment key={index}>
-              {paragraph}
-              <br />
-            </React.Fragment>
-          ))}
-        </div>
+        <p className="about-text">
+          Full-stack developer focused on building scalable and user-friendly
+          web applications. Experienced in React, Node.js, PHP, and working
+          with real-world projects including e-commerce platforms and lead
+          management systems.
+        </p>
+        <p className="about-text">
+          I focus on writing clean code, building efficient APIs, and creating
+          responsive user interfaces that perform well in production environments.
+        </p>
+
+        <p className="about-status">● Open to full-time opportunities</p>
+
       </div>
     </div>
   );

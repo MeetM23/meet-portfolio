@@ -15,21 +15,21 @@
       "title": "Lotsy E-Commerce Website",
       "content": "Production e-commerce website built for a real client using React and Shopify integration.",
       "url": "https://www.lotsy.in/",
-      "tech": "#reactjs #javascript #shopify",
+      "tech": "React • JavaScript • Shopify",
       "img": "lotsy.png"
     },
     {
       "title": "Foxplay Clothing E-Commerce Website",
       "content": "Live fashion e-commerce platform developed with React and Shopify for online sales.",
       "url": "https://www.foxplayclothing.com/",
-      "tech": "#reactjs #javascript #shopify",
+      "tech": "React • JavaScript • Shopify",
       "img": "foxplay.png"
     },
     {
       "title": "LeadFlow - AI Lead Management Platform",
       "content": "Smart lead management system with automation, tracking, and conversion optimization for businesses.",
       "url": "https://leadflow-sigma-brown.vercel.app/",
-      "tech": "#reactjs #nextjs #nodejs #mongodb",
+      "tech": "React • Next.js • Node.js • MongoDB",
       "img": "leadflow.png",
       "imgClass": "logo-img"
     },
@@ -37,7 +37,7 @@
       "title": "Zentry Demo Website",
       "content": "Modern animated landing page showcasing smooth interactions, transitions, and clean UI design.",
       "url": "https://68a30e3bf9648613a607c9e7--zentrydemo.netlify.app/",
-      "tech": "#reactjs #javascript #cssanimations",
+      "tech": "React • JavaScript • CSS Animations",
       "img": "zentry-cover.jpg"
     }
   ],
@@ -46,15 +46,14 @@
       "title": "React Developer Intern - TenUp Software Solutions",
       "company": "TenUp Software Solutions",
       "duration": "(Dec 2025 – Apr 2026)",
-      "description": "Contributing to real-world web applications in a professional development environment at TenUp Software Solutions. Working on production-level projects using React.js, modern JavaScript, and API integrations while gaining hands-on full-stack experience with exposure to backend technologies and real business workflows. Collaborating with senior developers to build scalable, user-focused web solutions and delivering live client projects including e-commerce platforms and business systems used by real customers. Company website: https://www.tenupsoft.com/",
-      "tags": [
-        "React.js",
-        "JavaScript",
-        "APIs",
-        "Full-stack",
-        "E-commerce",
-        "Production"
-      ]
+      "bullets": [
+        "Built and maintained production-level React applications",
+        "Integrated APIs and improved frontend performance",
+        "Contributed to full-stack features using Node.js and Express",
+        "Worked on real client projects including e-commerce platforms"
+      ],
+      "impact": "Worked on live applications used in real business environments.",
+      "tags": ["React", "APIs", "Node.js", "E-commerce"]
     }
   ]
 }

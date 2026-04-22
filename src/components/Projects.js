@@ -7,22 +7,28 @@ export default function Projects() {
     <div className="container-fluid projectsdiv">
       {data.live_client_projects && data.live_client_projects.length > 0 && (
         <>
-          <div className="text-center">
+          <div className="text-center projects-header">
+            <p className="section-eyebrow">What I've built</p>
             <h1>Live Projects</h1>
+            <p className="projects-subtitle">
+              Production applications delivered for real clients and deployed to the web.
+            </p>
           </div>
 
-          {data.live_client_projects.map((project, index) => (
-            <ProjectCard
-              key={`live-${index}`}
-              title={project.title}
-              content={project.content}
-              url={project.url}
-              img={require(`../assets/${project.img}`)}
-              tech={project.tech}
-              imgClass={project.imgClass}
-              showDetails={true}
-            />
-          ))}
+          <div className="project-cards-list">
+            {data.live_client_projects.map((project, index) => (
+              <ProjectCard
+                key={`live-${index}`}
+                index={index}
+                title={project.title}
+                content={project.content}
+                url={project.url}
+                img={require(`../assets/${project.img}`)}
+                tech={project.tech}
+                imgClass={project.imgClass}
+              />
+            ))}
+          </div>
         </>
       )}
     </div>
