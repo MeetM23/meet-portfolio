@@ -76,7 +76,7 @@ export default function Connect() {
             download
             className="cta-button-sub mt-3 d-inline-block"
           >
-             <button className="btn-contact-secondary-outline">
+             <button className="btn-contact-secondary-outline m-3 ">
                <i className="fa-solid fa-download" style={{ marginRight: "8px" }}></i>
                Download Resume
              </button>
