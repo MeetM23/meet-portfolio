@@ -35,25 +35,33 @@ body {
 html {
   overflow-x: hidden;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 /* ── Navbar ─────────────────────────────── */
 .navbar-wrap {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
   z-index: 200;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 6%;
   height: 64px;
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #E2E8F0;
-  transition: box-shadow 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .navbar-scrolled {
-  box-shadow: 0 1px 8px rgba(15, 23, 42, 0.07);
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
 }
 
 /* Brand / logo */
@@ -124,7 +132,7 @@ html {
 
 .taglinediv {
   position: relative;
-  padding: 80px 9% 72px;
+  padding: 120px 9% 72px;
   background-color: var(--bg-color);
   color: var(--text-color);
 
@@ -136,6 +144,45 @@ html {
 }
 
 /* ── Hero elements ────────────────────────── */
+/* ── Status Badge ────────────────────────── */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+  padding: 6px 16px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.status-badge-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #10B981;
+  border-radius: 50%;
+  animation: pulse-dot 1.5s infinite;
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
 .hero-role {
   font-size: 0.8rem;
   font-weight: 600;
@@ -230,7 +277,7 @@ html {
 
 /* ── Projects Page ────────────────────────── */
 .projects-page-container {
-  padding: 60px 8% 100px;
+  padding: 120px 8% 100px;
   background-color: #F8FAFC;
   min-height: 100vh;
 }
@@ -640,6 +687,7 @@ html {
   .project-card-saas {
     grid-template-columns: 1fr;
     gap: 24px;
+    padding: 20px;
   }
 
   .project-card-reverse {
@@ -1084,8 +1132,8 @@ html {
 /* 3-column grid */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
 }
 
 /* Card */
@@ -1180,7 +1228,7 @@ html {
   /* Navbar Mobile */
   .navbar-wrap {
     padding: 0 5%;
-    position: relative;
+    position: fixed;
     /* Ensure overlay logic works */
   }
 
@@ -1224,7 +1272,9 @@ html {
     left: 0;
     width: 100%;
     height: 0;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     flex-direction: column;
     align-items: flex-start;
     padding: 0 6%;
@@ -1266,7 +1316,7 @@ html {
 
   /* Hero Section */
   .taglinediv {
-    padding: 60px 6% 48px !important;
+    padding: 100px 6% 48px !important;
   }
 
   .hero-heading {
@@ -1289,7 +1339,7 @@ html {
   }
 
   .projects-page-container {
-    padding: 40px 6% 80px;
+    padding: 100px 6% 80px;
   }
 
   .projects-page-title {

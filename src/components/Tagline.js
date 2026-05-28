@@ -10,16 +10,19 @@ export default function Tagline() {
     <div className="container-fluid taglinediv text-center">
 
       <Fade direction="down" triggerOnce>
-        <p className="hero-role">Full-Stack Developer · React · Node.js · PHP</p>
+        <div className="status-badge mb-3">
+          <span className="status-badge-dot"></span>
+          Open to Remote & Relocation
+        </div>
+        <p className="hero-role">Full-Stack Developer · React · Node.js · MongoDB · Python</p>
         <h1 className="hero-heading">
-          Full-Stack Developer building<br />Real World Web Applications
+          Full-Stack Developer · React · Node.js · MongoDB | Open to Remote & Relocation
         </h1>
       </Fade>
 
       <Fade cascade triggerOnce>
         <p className="hero-sub">
-          I build scalable web apps using React, Node.js, and PHP — including
-          lead management systems and e-commerce platforms.
+          I build scalable web applications and automation tools using React, Node.js, MongoDB, and Python — including e-commerce platforms, lead management systems, and browser automation scripts.
         </p>
       </Fade>
 

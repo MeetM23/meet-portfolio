@@ -1,10 +1,10 @@
 {
   "profile": {
     "name": "Meet Modasiya",
-    "tagline": "A React Developer building the frontend, exploring the dark arts of backend because sleep is optional anyway.",
+    "tagline": "Full-Stack Developer · React · Node.js · MongoDB | Open to Remote & Relocation",
     "email": "modasiyameet23@gmail.com",
     "cv_link": "/src/assets/Meet  Modasiya  Resume.pdf",
-    "about_text": "Sup! I’m a React Developer who enjoys turning complex problems into clean, functional, and user-friendly web experiences. I build real-world applications that don’t just look good they work well in production too.\n\nI’m probably not the kind of developer who lives only inside backend architecture diagrams. You’ll usually find me crafting interfaces in React, refining layouts, improving performance, and making sure every interaction feels smooth and natural. That said, I’m actively exploring the backend world building APIs, designing databases, and slowly unlocking the dark arts of full-stack development.\n\nI’ve worked on live client projects including production e-commerce platforms and business systems, which taught me that a great website is more than just design. It must be fast, reliable, and easy to use. My experience across frontend, backend-in-progress, and real deployments allows me to build digital products that balance clean UI with solid engineering and I’m always hungry to learn more and build better.",
+    "about_text": "Full-stack developer with hands-on experience building and deploying real-world web applications using React, Node.js, Express, and MongoDB. Delivered two live production e-commerce platforms (Lotsy, Foxplay) and a full-stack Lead Management System with AI integration during internship. Comfortable across the entire development lifecycle — from REST API design and database modeling to responsive UI and deployment on Vercel/Netlify. Open to junior/mid frontend or full-stack roles — remote or willing to relocate internationally.",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/meet-modasiya",
       "github": "https://github.com/MeetM23"
@@ -32,6 +32,13 @@
       "tech": "React • Next.js • Node.js • MongoDB",
       "img": "leadflow.png",
       "imgClass": "logo-img"
+    },
+    {
+      "title": "Python Web Scraping & Automation Tool",
+      "content": "Built a Python-based web scraping and browser automation system to extract, filter, and structure data from target websites. Automated website navigation and dynamic content interaction using Selenium/Playwright and BeautifulSoup.",
+      "url": "",
+      "tech": "Python · Selenium · BeautifulSoup · Requests · Automation Scripts",
+      "img": "web_scraping_mockup.png"
     },
     {
       "title": "Zentry Demo Website",

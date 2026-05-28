@@ -11,17 +11,21 @@ export default function About() {
         </h2>
 
         <p className="about-text">
-          Full-stack developer focused on building scalable and user-friendly
-          web applications. Experienced in React, Node.js, PHP, and working
-          with real-world projects including e-commerce platforms and lead
-          management systems.
+          Full-stack developer with hands-on experience building and deploying real-world 
+          web applications using React, Node.js, Express, and MongoDB. Delivered two live 
+          production e-commerce platforms (Lotsy, Foxplay) and a full-stack Lead Management 
+          System with AI integration during internship.
         </p>
         <p className="about-text">
-          I focus on writing clean code, building efficient APIs, and creating
-          responsive user interfaces that perform well in production environments.
+          Comfortable across the entire development lifecycle — from REST API design and database 
+          modeling to responsive UI and deployment on Vercel/Netlify. Open to junior/mid frontend or 
+          full-stack roles — remote or willing to relocate internationally.
         </p>
 
-        <p className="about-status">● Open to full-time opportunities</p>
+        <div className="status-badge mt-4">
+          <span className="status-badge-dot"></span>
+          Open to Remote & Relocation
+        </div>
 
       </div>
     </div>

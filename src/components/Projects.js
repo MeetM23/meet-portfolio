@@ -9,9 +9,9 @@ export default function Projects() {
         <>
           <div className="text-center projects-header">
             <p className="section-eyebrow">What I've built</p>
-            <h1>Live Projects</h1>
+            <h1>Featured Projects</h1>
             <p className="projects-subtitle">
-              Production applications delivered for real clients and deployed to the web.
+              A selection of web applications, custom tools, and automation systems I've built.
             </p>
           </div>
 

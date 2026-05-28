@@ -2,19 +2,29 @@ import React from "react";
 
 const categories = [
   {
-    title: "Core Technologies",
-    icon: "fa-solid fa-code",
-    skills: ["React", "JavaScript", "Node.js", "Express", "PHP"],
+    title: "Frontend Development",
+    icon: "fa-solid fa-laptop-code",
+    skills: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
   },
   {
-    title: "Databases & APIs",
+    title: "Backend Development",
+    icon: "fa-solid fa-server",
+    skills: ["Node.js", "Express.js", "PHP", "Python", "REST API Design", "JWT Authentication"],
+  },
+  {
+    title: "Databases",
     icon: "fa-solid fa-database",
-    skills: ["MongoDB", "MySQL", "REST APIs", "JWT Authentication"],
+    skills: ["MongoDB", "MySQL / SQL"],
   },
   {
     title: "Tools & Platforms",
     icon: "fa-solid fa-screwdriver-wrench",
-    skills: ["Git & GitHub", "Postman", "VS Code", "Shopify"],
+    skills: ["Git", "GitHub", "Vercel", "Netlify", "Postman", "Selenium", "BeautifulSoup"],
+  },
+  {
+    title: "Other Skills",
+    icon: "fa-solid fa-gears",
+    skills: ["Shopify (Liquid)", "AI API Integration", "Responsive Design"],
   },
 ];
 
